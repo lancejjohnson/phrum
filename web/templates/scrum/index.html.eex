@@ -1,0 +1,4 @@
+<h1>Scrums</h1>
+<%= for scrum <- @scrums do %>
+  <%= render "summary.html", scrum: scrum %>
+<% end %>

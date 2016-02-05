@@ -1,0 +1,2 @@
+<p>Date: <%= @scrum.date %></p>
+

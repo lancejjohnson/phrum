@@ -1,0 +1,5 @@
+<div class="jumbotron">
+  <h2><%= gettext "Welcome to %{name}", name: "Phrum" %></h2>
+  <p class="lead">Check in for your Scrum with the speed of Phoenix!</p>
+</div>
+
