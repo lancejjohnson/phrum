@@ -18,6 +18,7 @@ defmodule Phrum.Router do
 
     get "/scrum", ScrumController, :index
     get "/", PageController, :index
+    resources "sessions", SessionController, only: [:new, :create, :delete]
   end
 
   # Other scopes may use custom stacks.
